@@ -1,0 +1,19 @@
+{
+    "name": "nicholas/composer",
+    "description": "This is a plugin utilising composer",
+    "type": "project",
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "Composer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Inc\\": "./inc"
+        }
+    }
+}
+
